@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homewrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    background-color: #f3f8fd;
+
+    .homeleft{
+        flex: 0.25;
+        
+        height: calc(100vh - 60px);
+        img{
+            width: 100%;
+        }
+    }
+
+    .homemiddle{
+        display: flex;
+        flex-direction: column;
+        flex: 0.4;
+       
+        height: calc(100vh - 60px);
+        align-items: center;
+        justify-content: center;
+
+        .homecontainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            border: 3px solid #2a7ec1;
+            padding: 70px 0 70px 0 ;
+            border-radius: 10px;
+            h2{
+                font-weight: bolder;
+                font-size: 30px;
+                margin: 30px 0 10px 0px ;
+                color: #2a7ec1;
+                line-height: 1.6;
+               
+                
+                
+            }
+            p{
+                
+                margin: 20px 0;
+                width: 60%;
+                line-height: 1.4;
+                font-size: 14px;
+                color: #2a7ec1;
+    
+            }
+            .homebtn{
+                display: flex;
+                margin: 15px;
+                .homebtn1{
+                    margin: 5px;
+                    background-color: #2a7ec1;
+                    color: white;
+                    padding: 10px 15px;
+                    border: none;
+                    border-radius: 4px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    &:hover{
+                        background-color: #23659b;
+                    }
+                }
+                .homebtn2{
+                    margin: 5px;
+                    color: #2a7ec1;
+                    background-color: white;
+                    padding: 10px 15px;
+                    border:  2px solid #2a7ec1;
+                    border-radius: 4px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    font-size: 14px;
+                    font-weight: 600;
+
+                    &:hover{
+                        color: white;
+                        background-color: #2a7ec1;
+                    }
+                    
+
+                }
+            }
+        }
+    }
+
+    .homeright{
+        flex: 0.25;
+        
+        height: calc(100vh - 60px);
+        img{
+            width: 100%;
+        }
+    }
+    
+}

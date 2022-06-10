@@ -1,0 +1,64 @@
+.organisations{
+    width: 100%;
+    background-color: white;
+
+    .orgmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 60vh;
+        width: 80%;
+        margin: auto;
+        padding: 40px 10px;
+        border-top: 3px dashed #eef0f4;
+
+        .orgcol{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .orgcol1{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+
+
+                .item{
+                    width: 23%;
+                    border: 2px solid rgb(242, 242, 242);
+                    min-height:12vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 5px;   
+                    
+                    
+                    img{
+                        width: 60%;
+                       object-fit: contain;
+                      
+                        
+                        
+                        
+                    }
+                    
+                }
+            }
+            .orgcol2{
+                width: 15%;
+                padding: 55px 0;
+                border: 2px solid rgb(242, 242, 242);
+                margin-left: 15px;
+                
+                item2{
+                    line-height: 1.6;
+                    text-align: center;
+                }
+            }
+
+
+        }
+    }
+}
